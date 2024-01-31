@@ -1,0 +1,62 @@
+body{
+    background-color: bisque;
+}
+fieldset{
+    margin-left: 200px;
+    margin-right: 230px;
+    height: 750px;
+    width: 65%;
+    background-color: aquamarine;
+}
+input{
+    height: 20px;
+    width: 300px;
+    border-radius: 5px;
+}
+.a{
+    
+    margin-left: 110px;
+    margin-right: 200px;
+    height: 260px;
+    width: 60%;
+    background-color: rgb(48, 159, 127);
+    border-radius: 5px;
+}
+.container{
+    margin-left: 110px;
+    margin-right: 200px;
+    height: 260px;
+    width: 60%;
+    background-color: rgb(250, 248, 137);
+    border-radius: 5px;
+}
+button{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+h1{
+    color: rgb(0, 0, 0);
+    animation: fadeinAndSlide 3s ease-out 4.5s forwards;
+}
+@keyframes fadeinAndSlide{
+    0%{
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

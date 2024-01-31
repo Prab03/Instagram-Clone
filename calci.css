@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: azure;
+}
+input{
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+}
+button{
+    margin-right: 15px;
+}
+.b1{
+    background-color: rgb(198, 205, 154);
+}
+.b2{
+    background-color: bisque;
+}
+.b3{
+    background-color: antiquewhite;
+}
+fieldset{
+    background-color: rgb(223, 148, 148);
+    border-color: rgb(143, 107, 107);
+    width: 122px;
+    border-width: 100px;
+}
